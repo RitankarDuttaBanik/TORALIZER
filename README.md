@@ -13,6 +13,7 @@
 
 ---
 
+
 ## 🔧 Requirements
 
 - GCC or any C compiler
@@ -20,6 +21,7 @@
 - Tor (if routing through the Tor network)
 
 ---
+
 
 ## 📁 Project Structure
   |
@@ -31,13 +33,14 @@
 
  >> gcc toralizer.c -o toralizer 
 
-
+------
 🚀 Usage
 
 ./toralizer <destination_ip> <destination_port>
 Example
 ./toralizer 93.184.216.34 80
 
+------
 
 CONNECTION ESTABLISHED TO PROXY
 Successfully connected through proxy to 93.184.216.34:80
@@ -56,6 +59,9 @@ DSTIP: 4 bytes
 
 USERID: Null-terminated string (up to 8 bytes)
 
+-----
+
+
 🧪 Testing with Tor
 Start the Tor service:
 
@@ -72,6 +78,9 @@ host example.com
 connect: Connection refused → Tor isn't running on port 9050
 
 Unable to traverse the proxy, error code: 91 → Request was rejected by the proxy
+
+-----
+
 
 📜 License
 MIT License — free for personal and commercial use.
