@@ -42,7 +42,9 @@ Example
 ------------------------------------------
 
 $> ./toralizer 93.184.216.34 80
+-
 CONNECTION ESTABLISHED TO PROXY
+-
 Successfully connected through proxy to 93.184.216.34:80
 
 -------------------------------------------
@@ -50,6 +52,7 @@ Successfully connected through proxy to 93.184.216.34:80
 
 
 🔍 SOCKS4 Request Format
+
 The proxy request structure follows the SOCKS4 protocol:
 +----+----+----+----+----+----+----+----+----+----+....+----+
 | VN | CD |   DSTPORT   |     DSTIP      |  USERID     |NULL|
