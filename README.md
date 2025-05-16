@@ -86,6 +86,10 @@ Unable to traverse the proxy, error code: 91 → Request was rejected by the pro
 MIT License — free for personal and commercial use.
 
 
+
+-----
+
+
 🤝 Contributions
 Contributions, suggestions, and forks are welcome. Future improvements could include:
 SOCKS5 support
