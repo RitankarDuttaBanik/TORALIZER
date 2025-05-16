@@ -38,12 +38,17 @@
 
 ./toralizer <destination_ip> <destination_port>
 Example
-./toralizer 93.184.216.34 80
 
-------
+------------------------------------------
 
+$> ./toralizer 93.184.216.34 80
 CONNECTION ESTABLISHED TO PROXY
 Successfully connected through proxy to 93.184.216.34:80
+
+-------------------------------------------
+
+
+
 🔍 SOCKS4 Request Format
 The proxy request structure follows the SOCKS4 protocol:
 +----+----+----+----+----+----+----+----+----+----+....+----+
